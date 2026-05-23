@@ -34,6 +34,16 @@ export default function RequestDemoModal({ isOpen, onClose }) {
     if (Object.keys(validationErrors).length > 0) {
       setErrors(validationErrors);
     } else {
+      const stored = JSON.parse(localStorage.getItem("demo_requests") || "[]");
+      stored.push({
+        id: Date.now().toString(),
+        name: form.name,
+        email: form.email,
+        message: form.message || "N/A",
+        date: new Date().toLocaleString(),
+      });
+      localStorage.setItem("demo_requests", JSON.stringify(stored));
+
       alert("✅ Demo request submitted successfully!");
       setForm({ name: "", email: "", message: "" });
       setErrors({});

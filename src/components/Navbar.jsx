@@ -40,9 +40,9 @@ export default function Navbar() {
           {/* Desktop nav */}
           <nav className="hidden md:flex items-center gap-6 text-white/90">
             <a href="/" className="hover:text-white">Home</a>
-            <a href="#features" className="hover:text-white">Features</a>
-            <a href="#how" className="hover:text-white">How it Works</a>
-            <a href="#faq" className="hover:text-white">FAQ</a>
+            <a href="/#features" className="hover:text-white">Features</a>
+            <a href="/#how" className="hover:text-white">How it Works</a>
+            <a href="/#faq" className="hover:text-white">FAQ</a>
             <a href="/contact" className="hover:text-white">Contact</a>
 
             {/* ✅ Get Started button */}
@@ -101,9 +101,9 @@ export default function Navbar() {
           <div className="md:hidden pb-4">
             <nav className="flex flex-col gap-2 text-white/90">
               <a href="/" className="px-2 py-2 rounded hover:bg-white/10">Home</a>
-              <a href="#features" className="px-2 py-2 rounded hover:bg-white/10">Features</a>
-              <a href="#how" className="px-2 py-2 rounded hover:bg-white/10">How it Works</a>
-              <a href="#faq" className="px-2 py-2 rounded hover:bg-white/10">FAQ</a>
+              <a href="/#features" className="px-2 py-2 rounded hover:bg-white/10">Features</a>
+              <a href="/#how" className="px-2 py-2 rounded hover:bg-white/10">How it Works</a>
+              <a href="/#faq" className="px-2 py-2 rounded hover:bg-white/10">FAQ</a>
               <a href="/contact" className="px-2 py-2 rounded hover:bg-white/10">Contact</a>
               
               {/* ✅ Mobile Get Started button */}

@@ -9,7 +9,7 @@ export default function Hero() {
       className="relative min-h-[80vh] flex items-center"
       style={{
         backgroundImage:
-          "linear-gradient(rgba(2,6,23,0.6), rgba(2,6,23,0.6)), url(/images/Hero.jpg)",
+          "linear-gradient(rgba(2,6,23,0.65), rgba(2,6,23,0.65)), url(https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1600&auto=format&fit=crop)",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

@@ -10,7 +10,7 @@ export default function Testimonials() {
       role: "Site Engineer",
       feedback:
         "CivilPortal has made site management so much easier. I can track labour and materials on my phone anytime.",
-      image: "/images/engineer1.jpg",
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=150&auto=format&fit=crop",
       rating: 5,
     },
     {
@@ -19,7 +19,7 @@ export default function Testimonials() {
       role: "Project Manager",
       feedback:
         "We saved at least 20% on material wastage thanks to CivilPortal’s inventory alerts. Highly recommended!",
-      image: "/images/engineer2.jpg",
+      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=150&auto=format&fit=crop",
       rating: 4,
     },
     {
@@ -28,7 +28,7 @@ export default function Testimonials() {
       role: "Contractor",
       feedback:
         "Labour attendance and wage management is now automatic. No more disputes or delays in payment.",
-      image: "/images/engineer3.jpg",
+      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=150&auto=format&fit=crop",
       rating: 5,
     },
   ];

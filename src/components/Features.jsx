@@ -17,11 +17,11 @@ export default function Features() {
           {/* Site Management */}
           <Link
             to="/site-management"
-            className="block transform transition duration-300 hover:scale-105"
+            className="block transform transition duration-300 hover:scale-105 hover:shadow-lg rounded-xl overflow-hidden"
           >
-            <article className="bg-white rounded-xl shadow-md overflow-hidden">
+            <article className="bg-white rounded-xl shadow-md overflow-hidden h-full">
               <img
-                src="/images/site.jpg"
+                src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=70&w=600&auto=format&fit=crop"
                 alt="Site Management"
                 loading="lazy"
                 className="w-full h-48 object-cover"
@@ -40,11 +40,11 @@ export default function Features() {
           {/* Labour Management */}
           <Link
             to="/labour-management"
-            className="block transform transition duration-300 hover:scale-105"
+            className="block transform transition duration-300 hover:scale-105 hover:shadow-lg rounded-xl overflow-hidden"
           >
-            <article className="bg-white rounded-xl shadow-md overflow-hidden">
+            <article className="bg-white rounded-xl shadow-md overflow-hidden h-full">
               <img
-                src="/images/labour.jpg"
+                src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=70&w=600&auto=format&fit=crop"
                 alt="Labour Management"
                 loading="lazy"
                 className="w-full h-48 object-cover"
@@ -61,10 +61,13 @@ export default function Features() {
           </Link>
 
           {/* Material Management */}
-          <div className="transform transition duration-300 hover:scale-105">
-            <article className="bg-white rounded-xl shadow-md overflow-hidden">
+          <Link
+            to="/material-management"
+            className="block transform transition duration-300 hover:scale-105 hover:shadow-lg rounded-xl overflow-hidden"
+          >
+            <article className="bg-white rounded-xl shadow-md overflow-hidden h-full">
               <img
-                src="/images/material.jpg"
+                src="/images/material_card.png"
                 alt="Material Management"
                 loading="lazy"
                 className="w-full h-48 object-cover"
@@ -78,13 +81,13 @@ export default function Features() {
                 </p>
               </div>
             </article>
-          </div>
+          </Link>
 
           {/* Mobile Friendly */}
           <div className="transform transition duration-300 hover:scale-105">
-            <article className="bg-white rounded-xl shadow-md overflow-hidden">
+            <article className="bg-white rounded-xl shadow-md overflow-hidden h-full">
               <img
-                src="/images/material.jpg"
+                src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=70&w=600&auto=format&fit=crop"
                 alt="Mobile Friendly"
                 loading="lazy"
                 className="w-full h-48 object-cover"
@@ -102,9 +105,9 @@ export default function Features() {
 
           {/* Role-based Access */}
           <div className="transform transition duration-300 hover:scale-105">
-            <article className="bg-white rounded-xl shadow-md overflow-hidden">
+            <article className="bg-white rounded-xl shadow-md overflow-hidden h-full">
               <img
-                src="https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=800&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1556157382-97eda2d62296?q=70&w=600&auto=format&fit=crop"
                 alt="Role-based Access"
                 loading="lazy"
                 className="w-full h-48 object-cover"
@@ -122,9 +125,9 @@ export default function Features() {
 
           {/* Chat & Notifications */}
           <div className="transform transition duration-300 hover:scale-105">
-            <article className="bg-white rounded-xl shadow-md overflow-hidden">
+            <article className="bg-white rounded-xl shadow-md overflow-hidden h-full">
               <img
-                src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=800&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=70&w=600&auto=format&fit=crop"
                 alt="Chat & Notifications"
                 loading="lazy"
                 className="w-full h-48 object-cover"
